@@ -7,7 +7,7 @@ const SignUp = () => {
             <div className="SignUp">
                 <h1>Create Account</h1>
                 <div className="sign-up-page">
-                    <div className="left-box">
+                    <div className="left-box" style={{backgroundImage: `url("https://i.postimg.cc/m210hhr7/494664.jpg")`}}>
                         <form >
                             <input type="text" placeholder="Your Name" required className="input-box"></input>
                             <input type="text" placeholder="Username" required className="input-box"></input>
@@ -28,6 +28,9 @@ const SignUp = () => {
 
                     </div>
                 </div>
+            </div>
+            <div style={{fontSize: "30px"}}>
+                Enjoy unlimited benefits by signing up in Maqure!!
             </div>
         </>
     )

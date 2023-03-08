@@ -20,15 +20,9 @@ const NavbarLogin = () => {
               <ul className="dropdown-menu">
                 <li><a className="dropdown-item" href="/MSME">MSME</a></li>
                 <li><a className="dropdown-item" href="/auditor">Auditor</a></li>
-                <li><hr className="dropdown-divider"/></li>
-                <li><a className="dropdown-item" href="/Investor">Home page</a></li>
+                <li><a className="dropdown-item" href="/Investor">Investor</a></li>
               </ul>
             </li>
-            <span>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/Investor">Home</a>
-            </li>
-            </span>
             <span>
             <form class="d-flex " role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>

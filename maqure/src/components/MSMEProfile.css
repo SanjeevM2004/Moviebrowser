@@ -1,0 +1,57 @@
+body {
+    background-image : url("https://i.postimg.cc/LscmGmck/494664.jpg");
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: cyan;
+}
+
+.profile-button {
+    background-image : url("https://i.postimg.cc/LscmGmck/494664.jpg");
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: white;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+#save-profile-msme{
+    margin-left: -160px;
+}
+.experience-msme{
+    margin-top: 20px;
+}
+#profile{
+    background: linear-gradient(to right, rgb(255, 0, 238), rgb(0, 136, 255) );
+    padding: 20px;
+    padding-bottom: 10px;
+    color: black;
+    border-radius: 10px;;
+}

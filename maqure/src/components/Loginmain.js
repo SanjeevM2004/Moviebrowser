@@ -8,7 +8,7 @@ const LoginMain = () => {
     const [data, setData] = useState({
         username: '',
         password: ''
-      });
+});
       const changeHandler = (e) => {
         setData({...data, [e.target.name]: e.target.value})
       }
@@ -32,7 +32,7 @@ const LoginMain = () => {
         <>
         <div className="loginpage">
             <NavbarLogin />
-                        <h1 id="login-header">
+                        <h1 className="login-header">
                             <b>
                             LOGIN
                             </b>

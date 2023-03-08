@@ -1,0 +1,77 @@
+.auditor-image{
+    margin-top: -270px;;
+    margin-right: 200px;
+    float: right;
+    display: inline;
+    position: relative;
+}
+.scroll {
+    overflow-y: scroll;
+    overflow-x: auto;
+    float: left;
+    border: 1px black solid;
+    padding: 2%;
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: large;
+}
+.Auditor-news{
+    margin-top: -360px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.button-msme{
+    margin-right: 15px;
+    padding:14px;
+    color: black;
+    border-radius: 10px;
+    float: right;
+    width: 280px;
+    background: linear-gradient(to right, rgb(255, 0, 238), rgb(0, 136, 255));
+    cursor :grab;
+    border: 2px solid black;
+    font-size: 30px;
+    margin-top:-270px;
+}
+.msme-text-2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+  }
+  .msme-subtext-2{
+    margin-top:10px;
+    margin-left:160px;
+    color: black;
+    font-size: 80px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: yellow ;
+    margin-bottom: 10px;
+  }
+  .auditor-buttons{
+    margin-left: 100px;
+    width: -200px;
+  }
+  .btn-primary-3{
+    display: block;
+    background: linear-gradient(to right, rgb(255, 0, 238), rgb(0, 136, 255));
+    color: Black;
+    margin-bottom: 10px;
+    width: 600px;
+  }
+  .card-2{
+    border-radius: 10px;
+    padding:5%;
+  }
+  .footer{
+    display:block;
+    margin-top: 700px;
+  }
+  .body-struct{
+    margin-top : -50px;
+    background-color: rgba(44, 2, 81, 0.363);
+  }

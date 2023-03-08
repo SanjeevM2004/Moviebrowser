@@ -6,19 +6,20 @@ class Home extends React.Component{
         return(
             <>
                 <div className="App">
-                    <div className="App-header">
+                    <div className="Main-page" style={{backgroundImage: `url("https://i.postimg.cc/m210hhr7/494664.jpg")`}}>
                         <NavbarHome />
-                        <div id="image2position">                  
-                            <img src="https://i.postimg.cc/L8QqR4r1/money-bag.png"  alt="" ></img>
+
+                        <div>
+                        <div className="image2position">                  
                             <div id="imagetext">
-                                <h2 >Dear Investors!!!</h2>
-                                <h4>Be fearful when others are greedy &</h4>
-                                <h4>Be greedy when others are fearful!</h4>
+                                <h2 className="investors-text"><b>Dear Investors!!!</b></h2>
+                                <h4 className="investors-sub-text">Be fearful when others are greedy &</h4>
+                                <h4 className="investors-sub-text">Be greedy when others are fearful!</h4>
+                                <h4 className="glow">Connect your Wallet Now!!</h4>
                             </div>
                         </div>
-                        <div id="imageposition">
-                            <img src="https://i.postimg.cc/grbzqDgV/favicontrain.png" alt="" width = "1400" height= "600" ></img>
-                        </div>
+                                <img className=" investor-image" src="https://i.postimg.cc/KYNXHKVX/investor-image-removebg-preview.png" alt="image2"/>
+                    </div>            
                         <div className="page-foot" id="login">
                             <div className="contact-info">
                                 <h1>CONTACT-INFO</h1> 

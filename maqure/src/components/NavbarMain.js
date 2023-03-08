@@ -26,7 +26,7 @@ const NavbarMain = () => {
             <span>
             <form class="d-flex " role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success">Search</button>
             </form>
             </span>
               <li class="nav-item2">
@@ -37,6 +37,9 @@ const NavbarMain = () => {
                 <Link class="nav-link" to ="/SignUp">SignUp</Link>
               </li>
             </span>
+            <Link to="/MSME/ConnectWallet">
+            <button class="btn-address" >Connect Wallet</button>
+            </Link>
             
           </ul>
     </div>

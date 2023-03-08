@@ -1,0 +1,51 @@
+  .connect-wallet-header{
+    margin-top:230px;
+    color: white;
+    margin-left: 600px;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  .connect-wallet-form{
+    background: linear-gradient(to right, rgb(255, 0, 238), rgb(0, 136, 255) );
+    border-radius: 15px;
+    align-items: center;
+    margin-left:570px;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .wallet-label{
+    display:block;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 100px;
+  }
+  
+  .wallet-input{
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  .connect-wallet-button{
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    margin-left: 130px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .connect-wallet-button:hover {
+    background-color: #3e8e41;
+  }
+  

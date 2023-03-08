@@ -5,11 +5,8 @@ class Main extends React.Component{
     render(){
         return(
             <>
-            <div className="Main-page" style={{backgroundImage: `url("https://i.postimg.cc/6qv2pjcT/wallpaper-glow-hexagon-black-blue-white-gradient-5120x2880-c4-000000-ffffff-00ffff-000000-l2-22-284.jpg")`}}>
+            <div className="Main-page" style={{backgroundImage: `url("https://i.postimg.cc/LscmGmck/494664.jpg")`}}>
                 <NavbarMain />
-                <div className="Maqure-heading text-white">
-                <h1><b>Maqure</b></h1>
-                </div>
                 <div className="main-page-header">
                     <h2><b>What do we do?</b></h2>
                 </div>
@@ -74,7 +71,7 @@ class Main extends React.Component{
                     <div class="col-sm-3" id="card6">
                       <div class="card">
                         <div class="card-body">
-                          <h3 class="card-title"><i class="fa-solid fa-file"></i><b>Transparency & Traceability</b></h3>
+                          <h3 class="card-title"><i class="fa-solid fa-file" id="cardicons"></i><b>Transparency & Traceability</b></h3>
                           <p class="card-text"><b>Maqure has integrated the entire system with safe & secure blockchain technology. 
                             This integration will help in making supply chain more robust by increased transparency and traceability.</b></p>
                           <a href="/T&T" class="btn btn-primary">Show Details</a>
@@ -82,8 +79,7 @@ class Main extends React.Component{
                       </div>
                     </div>
                 </div>
-            </div>
-            <div className="page-foot-main" id="login">
+                <div className="page-foot" id="login">
             <div className="contact-info-main">
                 <h1>CONTACT-INFO</h1> 
                 <h3>
@@ -109,8 +105,14 @@ class Main extends React.Component{
                 </div>                     
             </div>
         </div>
+        </div>
+     
         </>
         )
     }
 }
 export default Main;
+
+/*                <h1 className='header-main-page-1'>Welcome to</h1>
+                <h1 className='header-main-page'><b>Maqure</b></h1>
+*/
